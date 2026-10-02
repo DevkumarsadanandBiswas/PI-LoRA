@@ -1,6 +1,6 @@
 # Path Integral LoRA (PI-LoRA)
 
-![architecture](docs/pilora_architecture.png)
+![architecture](PI-LoRA/docs/pilora_architecture.png)
 
 PI-LoRA keeps the **standard LoRA forward pass** (`h' = W h + B(A h)`, W frozen,
 nothing between A and B) and changes only the **training loop**:
