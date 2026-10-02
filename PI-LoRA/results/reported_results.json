@@ -1,0 +1,14 @@
+{
+  "note": "Corrected (v2) runs, Tesla T4, distilgpt2. v1 numbers were invalid (PPL bug).",
+  "efficiency_wikitext2_r16_seed42": {
+    "zero_shot_test_ppl": 74.8404,
+    "standard_lora": {"test_ppl": 36.2266, "valid_ppl": 34.7546, "time_s": 1428.8, "peak_mem_mb": 3294.1},
+    "pi_lora":       {"test_ppl": 36.2693, "valid_ppl": 34.7849, "time_s": 1445.5, "peak_mem_mb": 3176.5},
+    "trainable_params": 811008
+  },
+  "multiseed_r4_mean_std_test_ppl": {
+    "wikitext-2": {"standard_lora": [45.341, 0.091], "pi_lora": [45.375, 0.114]},
+    "ag_news":    {"standard_lora": [57.870, 0.191], "pi_lora": [58.442, 0.161]},
+    "imdb":       {"standard_lora": [48.504, 0.032], "pi_lora": [48.497, 0.043]}
+  }
+}

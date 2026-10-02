@@ -1,0 +1,9 @@
+[project]
+name = "pilora"
+version = "0.1.0"
+description = "Path Integral LoRA: annealed Langevin-style noise + L2 penalty on LoRA adapters"
+requires-python = ">=3.9"
+dependencies = ["torch", "transformers>=4.40", "datasets", "accelerate", "peft>=0.9.0", "numpy"]
+
+[tool.setuptools]
+packages = ["pilora"]
